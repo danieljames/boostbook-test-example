@@ -1,0 +1,8 @@
+project boostbook-test-example/doc ;
+
+using boostbook ;
+
+boostbook boostbook : tests.xml :
+    <xsl:param>boost.root=../../../..
+    ;
+
